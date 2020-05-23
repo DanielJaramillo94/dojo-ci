@@ -10,8 +10,8 @@ test('gets add endpoint', async done => {
     done();
 })
 
-test('gets substract endpoint', async done => {
-    const response = await request.get('/substract?value1=5&value2=2');
+test('gets subtract endpoint', async done => {
+    const response = await request.get('/subtract?value1=5&value2=2');
     expect(response.status).toBe(200);
     expect(response.type).toBe('application/json');
     expect(response.body.result).toBe(3);

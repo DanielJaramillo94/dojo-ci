@@ -10,7 +10,7 @@ app.get('/add', (req, res) => {
     });
 });
 
-app.get('/substract', (req, res) => {
+app.get('/subtract', (req, res) => {
     let value1 =  parseInt(req.query.value1);
     let value2 =  parseInt(req.query.value2) * -1;
     res.json({

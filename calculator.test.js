@@ -10,8 +10,8 @@ describe('add operation', () => {
     })
 });
 
-describe('substract operation', () => {
-    test('substracts 5 - 5 to equal 0', () => {
+describe('subtract operation', () => {
+    test('subtracts 5 - 5 to equal 0', () => {
         expect(cal.add(5, -5)).toBe(0);
     });
 
